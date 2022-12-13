@@ -13,6 +13,9 @@ const username = yup
   .string()
   .trim();
 
+// gegeggegegegegege
+//etetetegetetete
+
 const password = yup
   .string()
   .trim()
@@ -25,11 +28,16 @@ const authenticate = yup.object().shape({
   password: password.required()
 });
 
+//fgesggegegegeg
+//egegegwegwgw
 const register = yup.object().shape({
   email: email.required(),
   password: password.required(),
   username: username.required()
 });
+
+//grgrgwrgwgnbbdgjsgnsjkgnskjgnskjnsjknsjbnsnbjsbnsbnsnbjsbncbnkbmckbskbslkbnsnblsb
+//skgnsjngjdngjdngsjgnsjlnslbnslbnslnbnslbnsnlb
 
 const update = yup.object().shape({
   username,
